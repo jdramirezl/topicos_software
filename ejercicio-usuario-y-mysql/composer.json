@@ -1,0 +1,18 @@
+{
+    "name": "julianramire/user-mysql",
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Julianramire\\UserMysql\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jdramirezl",
+            "email": "juliandavid.ramirez@mercadolibre.com.co"
+        }
+    ],
+    "require": {}
+}
