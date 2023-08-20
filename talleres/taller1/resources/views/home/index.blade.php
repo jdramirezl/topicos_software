@@ -8,15 +8,15 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Clase: Base Drone </div>
+                <div class="card-header">Taller 1: Topicos Ing. Software</div>
 
                 <div class="card-body text-center">
-                    <h1>Welcome to Our Homepage</h1>
+                    <h1>Clase: Base Drone </h1>
                     <p>Elija a que punto quiere ir</p>
 
-                    <div class="mt-3">
-                        <a href="#" class="btn btn-primary">Button 1</a>
-                        <a href="#" class="btn btn-secondary">Button 2</a>
+                    <div class="card">
+                        <a href="{{ route('drones.create') }}" class="btn btn-primary">Act 2: Insercion</a>
+                        <a href="#" class="btn btn-secondary">Act 4: Listar</a>
                     </div>
                 </div>
             </div>

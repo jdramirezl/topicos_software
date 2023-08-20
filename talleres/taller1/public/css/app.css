@@ -27,3 +27,51 @@ h1 {
     padding: 10px 20px;
     font-size: 18px;
 }
+/* Style the card containing the form */
+.card {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the card header */
+.card-header {
+    background-color: #3490dc;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style the form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Style the form input fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the form textarea */
+textarea.form-control {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Style the "Create Drone" button */
+.btn {
+    background-color: #3490dc;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #1e70bf;
+}

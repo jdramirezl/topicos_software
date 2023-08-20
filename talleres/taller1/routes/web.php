@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\HomeController@index')->name("home.index");
+Route::get('/drones/create', 'App\Http\Controllers\DroneController@create')->name('drones.create');
+Route::post('/drones', 'App\Http\Controllers\DroneController@store')->name('drones.store');
