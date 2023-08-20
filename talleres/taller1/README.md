@@ -7,42 +7,36 @@ Laravel Drone Store is a web application for managing and displaying information
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/laravel-drone-store.git
+    git clone https://github.com/jdramirezl/topicos_software
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd laravel-drone-store
-    ```
-
-3. Install Composer dependencies:
+2. Install Composer dependencies:
 
     ```bash
     composer install
     ```
 
-4. Create a copy of the `.env.example` file and rename it to `.env`. Update the database configuration in the `.env` file with your database credentials.
+3. Create a copy of the `.env.example` file and rename it to `.env`. Update the database configuration in the `.env` file with your database credentials.
 
-5. Generate an application key:
+4. Generate an application key:
 
     ```bash
     php artisan key:generate
     ```
 
-6. Migrate the database:
+5. Migrate the database:
 
     ```bash
     php artisan migrate
     ```
 
-7. Serve the application:
+6. Serve the application:
 
     ```bash
     php artisan serve
     ```
 
-8. Access the application in your web browser at `http://localhost:8000`.
+7. Access the application in your web browser at `http://localhost:8000`.
 
 ## Usage
 
