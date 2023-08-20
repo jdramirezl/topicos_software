@@ -16,7 +16,7 @@ Laravel Drone Store is a web application for managing and displaying information
     composer install
     ```
 
-3. Create a copy of the `.env.example` file and rename it to `.env`. Update the database configuration in the `.env` file with your database credentials.
+3. Create a copy of the `.env.example` file and rename it to `.env`. Update the database credentials.
 
 4. Migrate the database:
 
