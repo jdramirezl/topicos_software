@@ -16,7 +16,7 @@
 
                     <div class="card">
                         <a href="{{ route('drones.create') }}" class="btn btn-primary">Act 2: Insercion</a>
-                        <a href="#" class="btn btn-secondary">Act 4: Listar</a>
+                        <a href="{{ route('drones.index') }}" class="btn btn-primary">Act 4: Listar</a>
                     </div>
                 </div>
             </div>

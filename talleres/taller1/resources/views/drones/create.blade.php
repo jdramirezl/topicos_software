@@ -40,7 +40,7 @@
 
                         <div class="form-group">
                             <label for="baseprice">Base Price</label>
-                            <input type="number" name="baseprice" id="baseprice" class="form-control" required>
+                            <input type="decimal" name="baseprice" id="baseprice" class="form-control" required>
                         </div>
 
                         <div class="form-group">
@@ -49,6 +49,7 @@
                         </div>
 
                         <button type="submit" class="btn btn-primary">Create Drone</button>
+                        <a href="{{ route('home.index') }}" class="btn btn-secondary">Back to Home</a>
                     </form>
                 </div>
             </div>
