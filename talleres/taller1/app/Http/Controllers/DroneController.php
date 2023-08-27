@@ -50,7 +50,6 @@ class DroneController extends Controller
             'description' => 'required|string',
         ]);
 
-        // Create a new BaseDrone object and save it to the database
         BaseDrone::create($validatedData);
 
         return redirect()->route('drones.create')->with('success', 'Drone created successfully!');
