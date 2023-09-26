@@ -3,17 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\RedirectResponse;
-
 use Illuminate\Http\Request;
-
 use Illuminate\View\View;
 
 class CartController extends Controller
-
 {
-
     public function index(Request $request): View
-
     {
 
         $products = []; //this simulates the database
@@ -51,7 +46,6 @@ class CartController extends Controller
     }
 
     public function add(string $id, Request $request): RedirectResponse
-
     {
 
         $cartProductData = $request->session()->get('cart_product_data');
@@ -64,7 +58,6 @@ class CartController extends Controller
     }
 
     public function removeAll(Request $request): RedirectResponse
-
     {
 
         $request->session()->forget('cart_product_data');
